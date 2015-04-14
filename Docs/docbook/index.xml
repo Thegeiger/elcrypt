@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+    <title>Elcrypt</title>
+    </info>
+        <xi:include href="mainpage.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <chapter>
+        <title>Class Documentation</title>
+        <xi:include href="structs__crypt.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>File Documentation</title>
+        <xi:include href="elcrypto_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="elcrypt_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="keytobin_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>Directory Documentation</title>
+        <xi:include href="dir_9e509e816fdcfab21cda69474fe0df15.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_5155e01a000db694a4a30363bfaeb86f.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_5580a34368b7b942c6a3401158c33959.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_6637ccd67ac7c21cc5fbcbab2f6f940d.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+</book>

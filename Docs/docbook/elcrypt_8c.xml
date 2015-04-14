@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="elcrypt_8c">
+    <title>elcrypt.c File Reference</title>
+    <programlisting>#include &quot;elcrypto.h&quot;</programlisting>
+        <simplesect>
+            <title>Functions</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="elcrypt_8c_1af26e62f6261d36028e6df3e60c072c4c">my_rightshift</link> (
+char * key, int dec)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="elcrypt_8c_1a3ed43d8c1be56ad2800f1f1df2a2f98b">my_leftshift</link> (
+char * key, int dec)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>char * <link linkend="elcrypt_8c_1aeaa301820387086438ccaa2fe147cb4b">my_subkey</link> (
+<link linkend="structs__crypt">t_crypt</link> * crypt)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="elcrypt_8c_1a471d48f34089d7b8f73d74c2dd998f12">writeblock</link> (
+<link linkend="structs__crypt">t_crypt</link> * crypt, char * blocka, char * blockb)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="elcrypt_8c_1a8fa1434355cdce69d7bee777c6bb817b">processblock</link> (
+<link linkend="structs__crypt">t_crypt</link> * crypt, char block)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="elcrypt_8c_1a81b2a4f0dfb3f6f158d51479873afb85">processdata</link> (
+<link linkend="structs__crypt">t_crypt</link> * crypt)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="structs__crypt">t_crypt</link> <link linkend="elcrypt_8c_1aafec11cba5987a43bb692776502c83af">my_get_tag</link> (
+int argc, char ** argv)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>char * <link linkend="elcrypt_8c_1a26ca40efc449f8c8f04ccd9425fa49df">decodekey</link> (
+char * key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="elcrypt_8c_1a3c04138a5bfe5d72780bb7e82a18e627">main</link> (
+int argc, char ** argv)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /home/geiger_a/rendu/elcrypt/src/elcrypt.c</para>
+    </simplesect>
+</section>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="keytobin_8c">
+    <title>keytobin.c File Reference</title>
+    <programlisting>#include &quot;elcrypto.h&quot;</programlisting>
+        <simplesect>
+            <title>Functions</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static char * <link linkend="keytobin_8c_1a280fb6fa808c608f921ed673c93a62ad">ascii_in_bin</link> (
+char * key, char * str)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static char * <link linkend="keytobin_8c_1aa70abe04003e3d605ffd75ca54a4b1a0">deci_in_bin</link> (
+int deci, char * key)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static char * <link linkend="keytobin_8c_1a0758c6518c65f3a95fe14b996cdb1454">hexa_in_bin</link> (
+char * key, char * str)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>char * <link linkend="keytobin_8c_1a1b30fa6b42601dc22d46965921b2c7b2">keytbin</link> (
+char * str)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Detailed Description</title>
+    <para>Definition in file /home/geiger_a/rendu/elcrypt/src/keytobin.c</para>
+    </simplesect>
+</section>

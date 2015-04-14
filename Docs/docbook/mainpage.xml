@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Elcrypt Documentation</title>
+<section xml:id="index_1Elcript">
+<title>Module Encodage et Decodage</title>
+
+<para>La documentation de ce module est dispo : <link linkend="elcrypt_8c_source">src/elcrypt.c</link></para>
+</section>
+<section xml:id="index_1key">
+<title>Module Get Key</title>
+
+<para>La documentation de ce module est dispo : <link linkend="keytobin_8c_source">src/keytobin.c</link> </para>
+</section>
+
+</chapter>
